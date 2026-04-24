@@ -1,0 +1,101 @@
+body{
+margin:0;
+font-family:Segoe UI;
+background:linear-gradient(135deg,#6ea8ff,#c2d6ff);
+}
+
+.pantalla{
+display:none;
+height:100vh;
+padding:30px;
+text-align:center;
+}
+
+.activa{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.menu-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+width:80%;
+}
+
+.menu-item{
+background:white;
+padding:30px;
+border-radius:20px;
+font-size:20px;
+cursor:pointer;
+}
+
+.cuadro{
+background:white;
+padding:20px;
+border-radius:15px;
+margin:10px;
+max-width:800px;
+text-align:left;
+}
+
+.cuadro h3{
+margin:0;
+color:#4a6cf7;
+font-size:20px;
+border-bottom:2px solid #4a6cf7;
+padding-bottom:5px;
+}
+
+.cuadro p{
+margin-top:10px;
+line-height:1.6;
+}
+
+img{
+max-width:300px;
+margin:10px;
+}
+
+/* BOTONES GENERALES */
+button{
+margin-top:10px;
+padding:15px;
+background:#4a6cf7;
+color:white;
+border:none;
+border-radius:12px;
+cursor:pointer;
+width:80%;
+max-width:600px;
+font-size:16px;
+text-align:left;
+transition:0.3s;
+}
+
+button:hover{
+background:#3b5de0;
+transform:scale(1.03);
+}
+
+/* BOTONES DE OPCIONES (ACTIVIDAD) */
+#reto button{
+background:white;
+color:#333;
+border:2px solid #4a6cf7;
+margin:8px;
+}
+
+#reto button:hover{
+background:#4a6cf7;
+color:white;
+}
+
+.idioma{
+position:absolute;
+top:10px;
+right:10px;
+}
